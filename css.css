@@ -1,0 +1,55 @@
+
+.navbar {
+    display: block;
+    background-color: rgb(15, 0, 82);
+    width: 1200px;
+    height: 90px;
+    padding-left: 10px; 
+}
+
+.botão {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 120px;
+    border-radius: 18px;
+
+  }
+  
+  .abrir-botão {
+    display: inline-block;
+  }
+  
+  .conteúdo {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 18px;
+    
+  }
+  
+  .conteúdo a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 18px;
+  }
+  
+  .conteúdo a:hover {
+      background-color: rgb(255, 0, 0);
+    }
+  
+  .abrir-botão:hover .conteúdo {
+      display: block;
+    }
+  
+  .abrir-botão:hover .botão {
+      background-color: #696969;
+    }
+
+    
